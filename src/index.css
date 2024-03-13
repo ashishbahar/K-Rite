@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box !important;
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
+
+.container {
+  max-width: 1320px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+}
+
+.line_height {
+  line-height: 110%;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.h_100_vh {
+  height: 95vh;
+}
+
+table {
+  border-collapse: collapse;
+
+  border: 1px solid black;
+
+}
+
+td,
+th {
+  border: 1px solid black;
+  /* You can adjust the width and color as needed */
+}
